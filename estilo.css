@@ -19,7 +19,7 @@ header{
     display: flex;
     justify-content: space-between;
     border-bottom: var(--segundo);
-    border-bottom-widh: 0.5rem;
+    border-bottom-width: 0.5rem;
     border-bottom-style: solid;
     height: 5rem;
 }
@@ -31,19 +31,35 @@ header nav{
     align-items: center;
 }
 header nav a{
-    margin: 0.1rem;
+    margin: 0 0.5rem;
     text-decoration: none;
-    color: var(--segundo);
+    
 }
 header nav a:hover{
     font-weight: Inter;
+}
+header nav a.entrar{
+    color: var(--quinto);
+}
+header nav a.cadastrar{
+    color: var(--quarto);
+}
+
+main.index{
+    min-height: calc(100vh - 8.5rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 footer{
     height: 3.5rem;
     display: flex;
     align-items: center;
+    justify-content: 0 0.5rem;
     background-color: var(--segundo);
 }
+
 footer img{
     margin: 0 0.5rem;
 }
