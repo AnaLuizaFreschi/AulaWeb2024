@@ -1,0 +1,13 @@
+senha:
+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
+
+verificar:
+git pull origin master
+se não estiver correto, novo repositório
+
+no fim da aula:
+git add .
+git commit -m "Aula 01-03"
+git config user.name "AnaLuizaFreschi"
+git config user.email "freschianaluiza@gmail.com"
+git push origin master

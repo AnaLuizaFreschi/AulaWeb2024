@@ -40,18 +40,37 @@ header nav a:hover{
 }
 header nav a.entrar{
     color: var(--quinto);
+    margin: 1rem;
 }
 header nav a.cadastrar{
     color: var(--quarto);
 }
 
-main.index{
+main{
     min-height: calc(100vh - 8.5rem);
+}
+
+main.index{
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
+
+main.login{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 0.5rem;
+    align-items: baseline;
+}
+main.login section{
+    background-color: var(--terceiro);
+    margin: 0.7rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    min-height: 8rem;
+    max-width: 17rem;
+}
+
 footer{
     height: 3.5rem;
     display: flex;
@@ -63,3 +82,11 @@ footer{
 footer img{
     margin: 0 0.5rem;
 }
+header nav a.voltar{
+    color: var(--segundo);
+    margin: 1rem;
+}
+
+
+
+
