@@ -64,13 +64,22 @@ main.login{
 }
 main.login section{
     background-color: var(--terceiro);
-    margin: 0.7rem;
+    margin: 0.9rem;
     border-radius: 0.5rem;
     padding: 0.5rem;
     min-height: 8rem;
     max-width: 17rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
 }
 
+main.login section aside{
+    margin: 0.7rem 0;
+
+
+}
 footer{
     height: 3.5rem;
     display: flex;
